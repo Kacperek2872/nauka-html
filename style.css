@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    font-size: 28px;
+
+}
+h1 {
+    font-size: 36px;
+}
+span {
+    color: grey;
+}
+img {
+    width: 150px;
+    height: 150px;
+}
