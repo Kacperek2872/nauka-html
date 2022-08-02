@@ -16,9 +16,7 @@ span {
     color: grey;
 }
 img {
-    width: 150px;
-    height: 150px;
-    
+    border-radius: 50%;
 }
 section, header {
     padding: 10px 60px 20px 60px;
@@ -36,4 +34,27 @@ header ul {
 }
 header li {
     margin-bottom: 15px;
+}
+.address-icon {
+    width: 16px;
+    height: 16px;
+    background-color: cornflowerblue;
+    margin-right: 10px;
+    padding: 8px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.profile-picture {
+    width: 180px;
+    height: 180px;
+}
+.hobbies ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.hobbies .address-icon {
+    background-color: #6495ed00;
 }
