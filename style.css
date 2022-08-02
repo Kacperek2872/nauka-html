@@ -5,12 +5,19 @@ body {
     background-color:aliceblue ;
     padding:40px 0;
 }
+.container{
+    box-shadow: 0 0 20px grey;
+    background-color: whitesmoke;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
 h2 {
     font-size: 28px;
 
 }
 h1 {
     font-size: 36px;
+    margin-bottom: 10px;
 }
 span {
     color: grey;
@@ -20,19 +27,18 @@ img {
 }
 section, header {
     padding: 10px 60px 20px 60px;
-    background-color: whitesmoke;
-    width: 960px;
-    margin: 0 auto 0 auto;
+
 }
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 60px;
 }
 header ul {
     list-style: none;
 }
-header li {
+li {
     margin-bottom: 15px;
 }
 .address-icon {
@@ -53,7 +59,7 @@ header li {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    
 }
 .hobbies .address-icon {
     background-color: #6495ed00;
